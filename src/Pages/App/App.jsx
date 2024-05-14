@@ -1,9 +1,11 @@
+import HomePage from "../HomePage/HomePage"
 import './App.css';
+
 
 export default function App() {
   return (
     <main className="App">
-      <p>App</p>
+      <HomePage />
     </main>
   );
 }
